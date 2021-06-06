@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Simple Javascript Keyboard</title>
+<link rel="stylesheet" href="keyboard.css">
+</head>
+<body align="center">
+<h1>Simple Javascript Keyboard</h1>
+<div class="main">
+<form class="keyboardForm" name="keyboardForm" align="center">
+<div class="screen">
+<input type="text" name="screen" id="screen" readonly/>
+</div>
+<div class="btn">
+<input type="button" name="Q" value="Q" onclick="ValueButton(this);"/>
+<input type="button" name="W" value="W" onclick="ValueButton(this);"/>
+<input type="button" name="E" value="E" onclick="ValueButton(this);"/>
+<input type="button" name="R" value="R" onclick="ValueButton(this);"/>
+<input type="button" name="T" value="T" onclick="ValueButton(this);"/>
+<input type="button" name="Y" value="Y" onclick="ValueButton(this);"/>
+<input type="button" name="U" value="U" onclick="ValueButton(this);"/>
+<input type="button" name="I" value="I" onclick="ValueButton(this);"/>
+<input type="button" name="O" value="O" onclick="ValueButton(this);"/>
+<input type="button" name="P" value="P" onclick="ValueButton(this);"/>
+</div>
+<div class="btn">
+<input type="button" name="A" value="A" onclick="ValueButton(this);"/>
+<input type="button" name="S" value="S" onclick="ValueButton(this);"/>
+<input type="button" name="D" value="D" onclick="ValueButton(this);"/>
+<input type="button" name="F" value="F" onclick="ValueButton(this);"/>
+<input type="button" name="G" value="G" onclick="ValueButton(this);"/>
+<input type="button" name="H" value="H" onclick="ValueButton(this);"/>
+<input type="button" name="J" value="J" onclick="ValueButton(this);"/>
+<input type="button" name="K" value="K" onclick="ValueButton(this);"/>
+<input type="button" name="L" value="L" onclick="ValueButton(this);"/>
+</div>
+<div class="btn">
+<input type="button" name="Z" value="Z" onclick="ValueButton(this);"/>
+<input type="button" name="X" value="X" onclick="ValueButton(this);"/>
+<input type="button" name="C" value="C" onclick="ValueButton(this);"/>
+<input type="button" name="V" value="V" onclick="ValueButton(this);"/>
+<input type="button" name="B" value="B" onclick="ValueButton(this);"/>
+<input type="button" name="N" value="N" onclick="ValueButton(this);"/>
+<input type="button" name="M" value="M" onclick="ValueButton(this);"/>
+</div>
+<div class="btn">
+<input type="button" name="SPACE" value=" " onclick="ValueButton(this);"/>
+<input type="button" name="clear" value="CLEAR" onclick="clearScreen(this);"/>
+</div>
+<!--JAVASCRIPT-->
+<script>
+function ValueButton(e){
+keyboardForm.screen.value+=e.value;
+}
+function clearScreen(e){
+keyboardForm.screen.value=null;
+}
+</script>
+</body>
+</html>
