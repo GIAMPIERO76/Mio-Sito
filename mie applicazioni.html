@@ -50,8 +50,21 @@
 </table>
  <p align="center"><h3>Mie Applicazioni</h3></p>
 <table border="1" align="center">
- <tr><td><button>Calcolatrice</button></td></tr>
+ <tr><td><button id="btn" onclick='caricaFile()'>Calcolatrice</button></td></tr>
  </table>
+  <script>
+        // Ajax = Asynchronous JavaScript and Xml
+        function caricaFile(){
+            const xhttp = new XMLHttpRequest();
+            xhttp.open('GET','SimpleCalculatorJavascript.html',true);
+            xhttp.send();
+            xhttp.onreadystatechange = function(){
+                if(this.readyState === 4 && this.status === 200){
+                    document.getElementById('display').innerHTML = this.responseText;
+                }
+            }
+        }
+    </script>
 <!--FOOTER-->
 <div class="footer">
 <table class="table1" border="0" align="center" bgcolor="black">
