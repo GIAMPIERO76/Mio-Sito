@@ -180,17 +180,31 @@ tramite il quale Java avvia le sue applicazioni, nel seguente modo:</p>
   <p><code>private string cognome;</code></p>
   <p><code>private string eta';</code></p>
   
-  <p> <code>public persona(string nome, string cognome, string eta){</code></p>
-  this.nome = nome;
-  this.cognome = cognome;
-  this.eta = eta;
+  <p><code>public persona(string nome, string cognome, string eta){</code></p>
+  <p><code>this.nome = nome;</code></p>
+  <p><code>this.cognome = cognome;</code></p>
+  <p><code>this.eta = eta;</code></p>
   
-  public void setNome(String nome) {
-    this.nome = nome;
-}
+  <p><code> public void setNome(String nome) {</code></p>
+  <p><code> this.nome = nome;</code></p>
+  <p><code>}</code></p>
  
 public String getNome() { 
     return this.nome;
+}
+   public void setCognome(String cognome) {
+    this.cognome = cognome;
+}
+ 
+public String getCognome() { 
+    return this.cognome;
+}
+   public void setEta(String eta) {
+    this.eta = eta;
+}
+ 
+public String getEta() { 
+    return this.eta;
 }
   }
   }
