@@ -27,6 +27,7 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 	background-color:white;
 	background-image: url("spazio.jpg");
 	position:absolute;
+	image-repeat: no-repeat;
 	
 }
 #footer{
