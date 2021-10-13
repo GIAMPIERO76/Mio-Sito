@@ -26,9 +26,7 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 	height:500px;
 	background-color:white;
 	background-image: url("spazio.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-position:center center fixed;
+	
 	
 	
 
