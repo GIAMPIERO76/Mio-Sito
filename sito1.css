@@ -27,6 +27,11 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 	height:500px;
 		
 }
+#background{
+	width:100%;
+	height:5000px;
+	background: url(glow.css)no-repeat fixed center ;
+}
 
 #footer{
 	width:100%;
@@ -93,11 +98,7 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
   80% {margin-left: -2184px;}
   90% {margin-left: -2184px;}
 }
-#background{
-	width:100%;
-	height:5000px;
-	background: url(glow.css)no-repeat fixed center ;
-}
+
 
 
 
