@@ -37,6 +37,7 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 	height:150px;
 	background-color:black;
 	color:white;
+	position:relative;
 }
 .footer{
 	width:100%;
