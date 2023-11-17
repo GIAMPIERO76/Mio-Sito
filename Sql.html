@@ -65,6 +65,28 @@
 				 <p align="center"><img src="db-1.png"></img></p>
 			 </td>
 		 </tr>
+		 <tr>
+			 <td>Per prima cosa, bisogna aprire il DBMS ed avviarlo, collegare il DBMS tramite codice, come esempio useremo il php , con l'istruzione Connection:</td>
+		 </tr>
+		 <tr>
+			 <td> 
+				 <?php
+
+$db ="test";
+$db_host = "localhost";
+$db_user = "root";
+$db_password = "miapassword";
+$db_connection= mysqli_connect($db_host,$db_user,$db_password);
+if (!$db_connection) 
+{
+	print "si è verificato un problema tecnico";
+	exit;
+}
+mysqli_select_db($db_connection,$db);
+
+?>
+			 </td>
+		 </tr>
 	 </table>
   
 	<!--FOOTER-->
