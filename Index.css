@@ -89,7 +89,7 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 }
 .grafica{
 	padding:0;
-	margin:10;
+	margin:10px;
 	position:relative;
 	text-font-size:6px;
 }
