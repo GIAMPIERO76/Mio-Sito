@@ -92,7 +92,7 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 	margim:0;
 	position:relative;
 	text-font-size:6px;
-	background: grey;
+	background: #fff;
 	height:100%;
 	width:100%;
 }
