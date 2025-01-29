@@ -52,10 +52,10 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 .slide:nth-child(4) {
   background: #D9D055;
 }
-.slide-number p{
+.slide-number, p{
   color: #000;
-  text-align: overline;
-  font-size: 10px;
+  text-align: center;
+  text-size: 10px;
 	
 }
 @-webkit-keyframes slide {
