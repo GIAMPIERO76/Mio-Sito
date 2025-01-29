@@ -25,13 +25,12 @@ nav ul ul li:first-child a{border-top:solid 2px #000;}
 nav ul li:hover a{background:black; color:white;text-decoration:none;transition:0.5s;}
 
 #carousel{
-	width:100px;
-	height: 100px;
+	
 }
 #slideshow {
   overflow: hidden;
   height: 310px;
-  width: 728px;
+  width: 720px;
   margin: 0 auto;
 }
 .slide-wrapper {
