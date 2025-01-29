@@ -27,12 +27,12 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
 
 #slideshow {
   overflow: hidden;
-  height: 210px;
-  width: 628px;
+  height: 310px;
+  width: 728px;
   margin: 0 auto;
 }
 .slide-wrapper {
-  width: 2912px;
+  width: 1912px;
   -webkit-animation: slide 20s ease infinite;
 }
 .slide {
