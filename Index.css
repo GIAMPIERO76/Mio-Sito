@@ -25,7 +25,7 @@ nav ul ul li:first-child a{border-top:solid 2px #000;}
 nav ul li:hover a{background:black; color:white;text-decoration:none;transition:0.5s;}
 
 #carousel{
-	
+	width:100px;
 }
 #slideshow {
   overflow: hidden;
