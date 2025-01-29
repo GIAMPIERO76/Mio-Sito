@@ -32,13 +32,13 @@ nav ul li:hover a{background:black; color:white;text-decoration:none;transition:
   margin: 0 auto;
 }
 .slide-wrapper {
-  width: 912px;
+  width: 2912px;
   -webkit-animation: slide 20s ease infinite;
 }
 .slide {
   float: left;
   height: 510px;
-  width: 728px;
+  width: 628px;
 }
 .slide:nth-child(1) {
   background: #D93B65;
